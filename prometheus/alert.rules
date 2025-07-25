@@ -1,0 +1,12 @@
+groups:
+- name: containers
+  rules:
+
+  - alert: container_memory_too_high
+    expr: sum by (name) (container_memory_usage_bytes{name=~"alert-router-.*"}) > 16478208
+    for: 30s
+    labels:
+      severity: critical
+    annotations:
+      summary: "blabla"
+      description: "The container {{ $labels.name }} memory is greater than 16478208 bytes"

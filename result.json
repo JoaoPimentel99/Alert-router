@@ -1,0 +1,48 @@
+{
+  "alerts": [
+    {
+      "annotations": {
+        "description": "The container alert-router-alertmanager-1 memory is greater than 16478208 bytes",
+        "summary": "blabla"
+      },
+      "labels": {
+        "alertname": "container_memory_too_high",
+        "name": "alert-router-alertmanager-1",
+        "severity": "critical"
+      }
+    },
+    {
+      "annotations": {
+        "description": "The container alert-router-app-1 memory is greater than 16478208 bytes",
+        "summary": "blabla"
+      },
+      "labels": {
+        "alertname": "container_memory_too_high",
+        "name": "alert-router-app-1",
+        "severity": "critical"
+      }
+    },
+    {
+      "annotations": {
+        "description": "The container alert-router-cadvisor-1 memory is greater than 16478208 bytes",
+        "summary": "blabla"
+      },
+      "labels": {
+        "alertname": "container_memory_too_high",
+        "name": "alert-router-cadvisor-1",
+        "severity": "critical"
+      }
+    },
+    {
+      "annotations": {
+        "description": "The container alert-router-prometheus-1 memory is greater than 16478208 bytes",
+        "summary": "blabla"
+      },
+      "labels": {
+        "alertname": "container_memory_too_high",
+        "name": "alert-router-prometheus-1",
+        "severity": "critical"
+      }
+    }
+  ]
+}

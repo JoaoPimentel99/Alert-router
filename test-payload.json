@@ -1,0 +1,84 @@
+{
+   "receiver":"fastapi",
+   "status":"firing",
+   "alerts":[
+      {
+         "status":"firing",
+         "labels":{
+            "alertname":"container_memory_too_high",
+            "name":"alert-router-alertmanager-1",
+            "severity":"critical"
+         },
+         "annotations":{
+            "description":"The container alert-router-alertmanager-1 memory is greater than 16478208 bytes",
+            "summary":"blabla"
+         },
+         "startsAt":"2025-03-25T22:56:29.525Z",
+         "endsAt":"0001-01-01T00:00:00Z",
+         "generatorURL":"http://af00063ada9f:9090/graph?g0.expr=sum+by+%28name%29+%28container_memory_usage_bytes%7Bname%3D~%22alert-router-.%2A%22%7D%29+%3E+1.6478208e%2B07\u0026g0.tab=1",
+         "fingerprint":"9b417b6be0bd0f46"
+      },
+      {
+         "status":"firing",
+         "labels":{
+            "alertname":"container_memory_too_high",
+            "name":"alert-router-app-1",
+            "severity":"critical"
+         },
+         "annotations":{
+            "description":"The container alert-router-app-1 memory is greater than 16478208 bytes",
+            "summary":"blabla"
+         },
+         "startsAt":"2025-03-25T22:56:29.525Z",
+         "endsAt":"0001-01-01T00:00:00Z",
+         "generatorURL":"http://af00063ada9f:9090/graph?g0.expr=sum+by+%28name%29+%28container_memory_usage_bytes%7Bname%3D~%22alert-router-.%2A%22%7D%29+%3E+1.6478208e%2B07\u0026g0.tab=1",
+         "fingerprint":"6207c429a26520e4"
+      },
+      {
+         "status":"firing",
+         "labels":{
+            "alertname":"container_memory_too_high",
+            "name":"alert-router-cadvisor-1",
+            "severity":"critical"
+         },
+         "annotations":{
+            "description":"The container alert-router-cadvisor-1 memory is greater than 16478208 bytes",
+            "summary":"blabla"
+         },
+         "startsAt":"2025-03-25T22:56:29.525Z",
+         "endsAt":"0001-01-01T00:00:00Z",
+         "generatorURL":"http://af00063ada9f:9090/graph?g0.expr=sum+by+%28name%29+%28container_memory_usage_bytes%7Bname%3D~%22alert-router-.%2A%22%7D%29+%3E+1.6478208e%2B07\u0026g0.tab=1",
+         "fingerprint":"ca0cae32dc8a43e8"
+      },
+      {
+         "status":"firing",
+         "labels":{
+            "alertname":"container_memory_too_high",
+            "name":"alert-router-prometheus-1",
+            "severity":"critical"
+         },
+         "annotations":{
+            "description":"The container alert-router-prometheus-1 memory is greater than 16478208 bytes",
+            "summary":"blabla"
+         },
+         "startsAt":"2025-03-25T22:56:29.525Z",
+         "endsAt":"0001-01-01T00:00:00Z",
+         "generatorURL":"http://af00063ada9f:9090/graph?g0.expr=sum+by+%28name%29+%28container_memory_usage_bytes%7Bname%3D~%22alert-router-.%2A%22%7D%29+%3E+1.6478208e%2B07\u0026g0.tab=1",
+         "fingerprint":"5bb3d4582db53bed"
+      }
+   ],
+   "groupLabels":{
+
+   },
+   "commonLabels":{
+      "alertname":"container_memory_too_high",
+      "severity":"critical"
+   },
+   "commonAnnotations":{
+      "summary":"blabla"
+   },
+   "externalURL":"http://c09f89dcd38c:9093",
+   "version":"4",
+   "groupKey":"{}:{}",
+   "truncatedAlerts":0
+}
